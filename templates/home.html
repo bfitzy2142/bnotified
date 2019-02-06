@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+
+<div class="jumbotron text-center">
+    <h1>The Button!</h1>
+    <p class="lead"> Click to get Brad's attention! </p>
+    <p class="lead"> Version: 1.0 </p>
+    <input type="button" id="ping" class="ping" value="ping" />
+    
+    
+</div>
+
+
+
+
+
+<div id='center-div' align="center">
+    <p style="color: black; font-size: 46px;" id="button_feedback"></p> 
+    <img id="image" style="width:400px;height:400px;" src="{{url_for('static', filename='tenor.gif')}}" />
+</div>
+
+
+
+{% endblock %}
