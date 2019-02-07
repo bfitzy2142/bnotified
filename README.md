@@ -1,5 +1,7 @@
 # bnotified
 
+A simple flask webapp that's purpose is to notify me via random sounds played by my Raspberry Pi when a button is pressed.
+
 ## Raspberry Pi Waiting for Website Request
 ![rpi_waiting](static/waiting.JPG?raw=true "Raspberry Pi Waiting for Website Request")
 
