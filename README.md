@@ -1,3 +1,3 @@
 # bnotified
 
-![rpi_waiting](static/waiting.jpg?raw=true "Raspberry Pi Waiting for Website Request")
+![rpi_waiting](static/waiting.JPG?raw=true "Raspberry Pi Waiting for Website Request")
