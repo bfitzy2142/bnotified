@@ -7,7 +7,7 @@
 ![rpi_notified](static/request_in.JPG?raw=true "Raspberry Pi Notified")
 
 ## Website View
-![website](static/Website_view.JPG?raw=true "Website View")
+![website](static/Website_view.PNG?raw=true "Website View")
 
 ## Website Notifying
-![website-notifying](static/Website_notifying.JPG?raw=true "Website Notifying")
+![website-notifying](static/Website_notifying.PNG?raw=true "Website Notifying")
