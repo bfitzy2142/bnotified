@@ -8,7 +8,7 @@ The bnotified project uses a client server model. The webapp component is the se
 ## What I learned?
 Through this project I was able to gain exposure of full stack development with Flask, Python3, and JavaScript. The best takeaway was creating APIs and the RESTful protocol to communicate between components. However, it was also useful learning how to use AJAX and jQuery to display dynamic text/images without reloading the webpage. 
 
-Additionally, I created a new bquery script (bquery_lcd.py) which displays statistics on a 16x02 display I have connected to the GPIO of my RPi. Somescreenshots are attached:
+Additionally, I created a new bquery script (bquery_lcd.py) which displays statistics on a 16x02 display I have connected to the GPIO of my RPi. Some screenshots are attached:
 
 ## Raspberry Pi Waiting for Website Request
 ![rpi_waiting](static/waiting.JPG?raw=true "Raspberry Pi Waiting for Website Request")
