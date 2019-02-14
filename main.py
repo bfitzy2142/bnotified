@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-
 from flask import Flask, render_template, jsonify, request
 from state import NotifyState
 from piResponse import restfulResponse
-import json
 
+"""
+Main body for flask application
+"""
 app = Flask(__name__)
+# Boolean for status of website
 status = NotifyState()
+
+# Data retrieved from RPi via POST to /data API
 pi_json = restfulResponse('')
 
 
@@ -20,7 +24,6 @@ def index():
 def get_pi_response():
     if (request.method == 'POST'):
         pi_json.Rpi_data = request.get_json()
-        print(pi_json.Rpi_data)
         return jsonify({'Status': 'Success'})
     else:
         if (pi_json.Rpi_data == None):
